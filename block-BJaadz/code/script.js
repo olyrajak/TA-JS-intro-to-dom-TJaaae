@@ -52,6 +52,8 @@ allHrsArray.forEach(hr => {
     if (hr.classList.contains('seventeen')) {
         hr.style.display = "none";
     }
+
+
 });
 // allHrsArray.forEach(hr => {
 //     if (hr.classList.contains('seventeen')) {
@@ -88,6 +90,7 @@ Do the following after selecting box 16 and storing in variable named box16
   - Access nextSibling
   - Access firstChild
   - Access lastChild
+
 
   - Access previousElementSibling
   - Access nextElementSibling
@@ -238,4 +241,5 @@ allBox.forEach(box => {
         box.append(anchor);
         box.append(anchor2);
     }
+
 });
